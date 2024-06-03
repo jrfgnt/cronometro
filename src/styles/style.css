@@ -1,0 +1,56 @@
+* {
+    margin: 0; 
+    padding: 0; 
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: aquamarine;
+
+}
+.cronometro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+#contador {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: aquamarine;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: 10px;
+    
+}
+
+
+button {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    width: 50px;
+}
+
+#milisegundos {
+
+    font-size: smaller;
+    color: rgb(87, 87, 87);
+}
+
